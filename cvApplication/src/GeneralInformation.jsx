@@ -36,24 +36,12 @@ function GeneralInformation(){
 
 export default GeneralInformation;
 
-
-
 /*
-<div> General Information <br />
-          <label htmlFor={'my-name'}>Enter Name: </label>  
-          <input
-            id={'my-name'}
-            type={'text'}
-            value={state}
-            placeholder={'Enter Your Name'}
-            onChange={event => {
-            setState(event.target.value)
-          }}
-          />
-      <br />
-      <br />
-      You entered: {state}
-    </div>
+Once submit button is clicked add option for delete and edit to edit the information for each -> got by this.id of information to determine which button is clicked.
+
+Once this information is determined update with a useState hook to correctly update information.
+
+Do sme process for both Education and work experiance
 
 
 */
